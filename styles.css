@@ -7,9 +7,9 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px; /* Added padding */
+    padding: 2px; /* Added padding */
 }
 
 header {
@@ -21,7 +21,7 @@ h1, h2, h3 {
     color: #000; /* Black headings */
 }
 
-.personal-info, .education, .work-experience, .skills, .certificates, .contact {
+.personal-info, .education, .work-experience, .skills, .certificates, .projects, .contact, .profile-picture {
     background-color: #fff;
     border: 1px solid #000; /* Black border */
     border-radius: 30px;
@@ -52,3 +52,30 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.profile-picture {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    border-radius: 50%; /* Makes the image round */
+    max-width: 500px; /* Adjust the maximum width as needed */
+    height: auto;
+}
+
+/* Update the existing CSS file with these styles */
+
+.profile-picture {
+    text-align: right;
+    margin-top: 20px; /* Add margin to the top of the profile picture */
+}
+
+.left-content {
+    text-align: left;
+}
+
+
+
+
+

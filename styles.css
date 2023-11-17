@@ -21,14 +21,14 @@ h1, h2, h3 {
     color: #000; /* Black headings */
 }
 
-.personal-info, .education, .work-experience, .skills, .contact {
+.personal-info, .education, .work-experience, .skills, .certificates, .contact {
     background-color: #fff;
     border: 1px solid #000; /* Black border */
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 30px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 ul {
